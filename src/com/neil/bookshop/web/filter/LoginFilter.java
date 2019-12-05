@@ -26,7 +26,8 @@ public class LoginFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) resp;
         String servletPath = request.getServletPath();
-        if (servletPath.contains("login") || servletPath.contains("Login") ||
+        System.out.println("请求路径为：" + servletPath);
+        if (servletPath.contains("login") || servletPath.contains("Login") || servletPath.contains("user") ||
                 servletPath.contains("register") || servletPath.contains("Register") || servletPath.contains("/imageCode")) {
             chain.doFilter(req, resp);
             return;
