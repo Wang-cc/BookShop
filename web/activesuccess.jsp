@@ -30,7 +30,8 @@
 								<a href="index.html"><span id="second">5</span>秒后自动为您转跳回首页</a></td>
 						</tr>
 					</table>
-					<h1>&nbsp;</h1></td>
+					<h1>&nbsp;</h1>
+				</td>
 			</tr>
 		</table>
 	</div>
