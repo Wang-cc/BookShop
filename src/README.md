@@ -9,3 +9,5 @@
 3.File  -->  Project Structure -->  Modules  -->  Dependencies -->  +  -->  library  -->  添加tomcat的jar包依赖
 
 4.配置tomcat时，要在deployment中将项目部署到tomcat
+
+5.配置Artifacts: BookShop:war exploded, 部署到tomcat中的项目也用该方式
